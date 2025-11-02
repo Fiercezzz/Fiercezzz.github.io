@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Simulator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1>Calculator Simulator</h1>
+    <p class="instruction-text">Please enter 2 numbers below.</p>
+    <input class="number-input" type="number" id="nuno" placeholder="First Number">
+    <input class="number-input" type="number" id="ndos" placeholder="Second Number">
+    <br><br>
+    <p class="instruction-text">Pick from the following...</p>
+    <button class="operation-btn" onclick="addNumbers()">Add</button>
+    <button class="operation-btn" onclick="subtractNumbers()">Subtract</button>
+    <button class="operation-btn" onclick="multiplyNumbers()">Multiply</button>
+    <button class="operation-btn" onclick="divideNumbers()">Divide</button>
+    <h2>Your result<span style="font-style: italic;">:</span> <span class="result-display" id="results">0</span></h2>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

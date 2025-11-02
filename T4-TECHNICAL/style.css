@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.instruction-text {
+    margin-top: -15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number-input {
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.operation-btn {
+    font-size: 21px; 
+    text-align: center; 
+    font-weight: bold; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.result-display {
+    color: rgb(0, 128, 21);
+}
+
+button:hover{
+    background-color: rgb(16, 114, 13);
+    color: rgb(243, 250, 212);
+}
